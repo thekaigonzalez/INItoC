@@ -2,6 +2,9 @@ import iconf; // Import the IConf API
 import std.stdio;
 import std.file;
 
+pragma(msg, "INItoC is a Configuration parser.\nThanks for downloading!\n
+IF you like the project, you could star it on github!");
+
 /// Prints the usage
 void usage() {
 	writeln("usage: itc [-help] FILEIN FILEOUT ...");
